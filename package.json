@@ -1,0 +1,17 @@
+{
+  "name": "BugScan 插件",
+  "name_en": "AS_BugScan",
+  "main": "index.js",
+  "icon": "search",
+  "version": "0.1",
+  "description": "通过 Webshell 创建 BugScan 节点",
+  "description_en": "Create your bugscan node with webshell",
+  "author": {
+    "name": "Medici.Yan",
+    "email": "Medici.Yan@gmail.com"
+  },
+  "category": "内网工具",
+  "category_en": "Intranet",
+  "multiple": true,
+  "scripts": ["php"]
+}
