@@ -11,6 +11,9 @@ class Bugscan {
       core.request({
         _: this.template[opt['type']](argv.url, argv.tasks)
       }).then(res)
+      .catch((err)=>{
+        rej(err);
+      });
     });
   }
 
